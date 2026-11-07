@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BrideName & GroomName | Wedding Invitation</title>
+
+<meta name="description"
+content="Join us as we celebrate our wedding. Explore the celebrations, venue details and special memories.">
+
+<meta name="theme-color" content="#F8F5EF">
+
+<!-- Open Graph -->
+
+<meta property="og:title"
+content="BrideName & GroomName — We're Getting Married!">
+
+<meta property="og:description"
+content="Join us as we celebrate our wedding.">
+
+<meta property="og:type"
+content="website">
+
+<meta property="og:url"
+content="https://YOUR-DOMAIN.pages.dev">
+
+<meta property="og:image"
+content="https://YOUR-DOMAIN.pages.dev/assets/images/og-cover.webp">
+
+<!-- Twitter -->
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="BrideName & GroomName — We're Getting Married!">
+
+<meta name="twitter:description"
+content="Join us as we celebrate our wedding.">
+
+<meta name="twitter:image"
+content="https://YOUR-DOMAIN.pages.dev/assets/images/og-cover.webp">
+
+<link rel="icon"
+href="assets/icons/favicon.png">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<nav class="nav">
+
+<button id="menuBtn">
+☰
+</button>
+
+<div class="nav-links">
+
+<a href="#hero">Home</a>
+<a href="#welcome">Our Story</a>
+<a href="#celebrations">Celebrations</a>
+<a href="#location">Location</a>
+<a href="#gallery">Gallery</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section id="hero"
+class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1 id="heroNames"></h1>
+
+<p class="date"
+id="heroDate"></p>
+
+<span>We're Getting Married</span>
+
+<div class="scroll-indicator">
+↓
+</div>
+
+</div>
+
+</section>
+
+<!-- WELCOME -->
+
+<section id="welcome"
+class="welcome reveal">
+
+<h2>Welcome</h2>
+
+<p id="welcomeText"></p>
+
+</section>
+
+<!-- BRIDE GROOM -->
+
+<section class="couple-section">
+
+<div class="profile reveal">
+
+<div class="slideshow"
+id="brideSlideshow"></div>
+
+<h3 id="brideName"></h3>
+
+<p id="brideIntro"></p>
+
+</div>
+
+<div class="profile reveal">
+
+<div class="slideshow"
+id="groomSlideshow"></div>
+
+<h3 id="groomName"></h3>
+
+<p id="groomIntro"></p>
+
+</div>
+
+</section>
+
+<!-- CELEBRATIONS -->
+
+<section id="celebrations"
+class="celebrations">
+
+<video
+id="celebrationVideo"
+muted
+loop
+playsinline
+preload="none"
+poster="assets/images/hero.webp">
+
+<source
+src=""
+type="video/mp4">
+
+</video>
+
+<div class="video-overlay"></div>
+
+<div class="events-container">
+
+<h2>The Celebrations</h2>
+
+<div id="events"></div>
+
+</div>
+
+</section>
+
+<!-- LOCATION -->
+
+<section id="location"
+class="location reveal">
+
+<img id="venueImage">
+
+<div>
+
+<h2 id="venueName"></h2>
+
+<p id="venueAddress"></p>
+
+<a
+id="venueMap"
+class="btn"
+target="_blank">
+
+Get Directions
+
+</a>
+
+</div>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery"
+class="gallery reveal">
+
+<h2>Memories</h2>
+
+<div id="galleryGrid"></div>
+
+</section>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox">
+
+<button id="closeLightbox">
+✕
+
+</button>
+
+<img id="lightboxImg">
+
+</div>
+
+<!-- CLOSING -->
+
+<section class="closing">
+
+<div class="overlay"></div>
+
+<h2>
+We would love to celebrate with you.
+</h2>
+
+<p id="closingFamily"></p>
+
+<p id="closingDate"></p>
+
+</section>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
