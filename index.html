@@ -1,249 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>BrideName & GroomName | Wedding Invitation</title>
-
-<meta name="description"
-content="Join us as we celebrate our wedding. Explore the celebrations, venue details and special memories.">
-
-<meta name="theme-color" content="#F8F5EF">
-
-<!-- Open Graph -->
-
-<meta property="og:title"
-content="BrideName & GroomName — We're Getting Married!">
-
-<meta property="og:description"
-content="Join us as we celebrate our wedding.">
-
-<meta property="og:type"
-content="website">
-
-<meta property="og:url"
-content="https://YOUR-DOMAIN.pages.dev">
-
-<meta property="og:image"
-content="https://YOUR-DOMAIN.pages.dev/assets/images/og-cover.webp">
-
-<!-- Twitter -->
-
-<meta name="twitter:card"
-content="summary_large_image">
-
-<meta name="twitter:title"
-content="BrideName & GroomName — We're Getting Married!">
-
-<meta name="twitter:description"
-content="Join us as we celebrate our wedding.">
-
-<meta name="twitter:image"
-content="https://YOUR-DOMAIN.pages.dev/assets/images/og-cover.webp">
-
-<link rel="icon"
-href="assets/icons/favicon.png">
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap"
-rel="stylesheet">
-
-<link rel="stylesheet"
-href="css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f5ef">
+  <meta name="description" content="Join Gagan and Sindhu for their wedding celebrations on 19 and 20 November 2026.">
+  <meta property="og:title" content="Gagan &amp; Sindhu — We're Getting Married!">
+  <meta property="og:description" content="Join Gagan and Sindhu at Gowrishankara Kalyana Mantapa, Mandya, on 19 and 20 November 2026.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-DOMAIN.pages.dev">
+  <meta property="og:image" content="https://YOUR-DOMAIN.pages.dev/assets/images/social/gagan-sindhu-preview.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gagan &amp; Sindhu — We're Getting Married!">
+  <meta name="twitter:description" content="Join Gagan and Sindhu at Gowrishankara Kalyana Mantapa, Mandya, on 19 and 20 November 2026.">
+  <meta name="twitter:image" content="https://YOUR-DOMAIN.pages.dev/assets/images/social/gagan-sindhu-preview.svg">
+  <title>Gagan &amp; Sindhu | Wedding Invitation</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-<nav class="nav">
-
-<button id="menuBtn">
-☰
-</button>
-
-<div class="nav-links">
-
-<a href="#hero">Home</a>
-<a href="#welcome">Our Story</a>
-<a href="#celebrations">Celebrations</a>
-<a href="#location">Location</a>
-<a href="#gallery">Gallery</a>
-
-</div>
-
-</nav>
-
-<!-- HERO -->
-
-<section id="hero"
-class="hero">
-
-<div class="overlay"></div>
-
-<div class="hero-content">
-
-<h1 id="heroNames"></h1>
-
-<p class="date"
-id="heroDate"></p>
-
-<span>We're Getting Married</span>
-
-<div class="scroll-indicator">
-↓
-</div>
-
-</div>
-
-</section>
-
-<!-- WELCOME -->
-
-<section id="welcome"
-class="welcome reveal">
-
-<h2>Welcome</h2>
-
-<p id="welcomeText"></p>
-
-</section>
-
-<!-- BRIDE GROOM -->
-
-<section class="couple-section">
-
-<div class="profile reveal">
-
-<div class="slideshow"
-id="brideSlideshow"></div>
-
-<h3 id="brideName"></h3>
-
-<p id="brideIntro"></p>
-
-</div>
-
-<div class="profile reveal">
-
-<div class="slideshow"
-id="groomSlideshow"></div>
-
-<h3 id="groomName"></h3>
-
-<p id="groomIntro"></p>
-
-</div>
-
-</section>
-
-<!-- CELEBRATIONS -->
-
-<section id="celebrations"
-class="celebrations">
-
-<video
-id="celebrationVideo"
-muted
-loop
-playsinline
-preload="none"
-poster="assets/images/hero.webp">
-
-<source
-src=""
-type="video/mp4">
-
-</video>
-
-<div class="video-overlay"></div>
-
-<div class="events-container">
-
-<h2>The Celebrations</h2>
-
-<div id="events"></div>
-
-</div>
-
-</section>
-
-<!-- LOCATION -->
-
-<section id="location"
-class="location reveal">
-
-<img id="venueImage">
-
-<div>
-
-<h2 id="venueName"></h2>
-
-<p id="venueAddress"></p>
-
-<a
-id="venueMap"
-class="btn"
-target="_blank">
-
-Get Directions
-
-</a>
-
-</div>
-
-</section>
-
-<!-- GALLERY -->
-
-<section id="gallery"
-class="gallery reveal">
-
-<h2>Memories</h2>
-
-<div id="galleryGrid"></div>
-
-</section>
-
-<!-- LIGHTBOX -->
-
-<div id="lightbox">
-
-<button id="closeLightbox">
-✕
-
-</button>
-
-<img id="lightboxImg">
-
-</div>
-
-<!-- CLOSING -->
-
-<section class="closing">
-
-<div class="overlay"></div>
-
-<h2>
-We would love to celebrate with you.
-</h2>
-
-<p id="closingFamily"></p>
-
-<p id="closingDate"></p>
-
-</section>
-
-<script src="js/config.js"></script>
-<script src="js/main.js"></script>
-
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-mark" href="#hero" aria-label="Back to the beginning">G <span>&amp;</span> S</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#welcome">Our Story</a>
+        <a href="#celebrations">Celebrations</a>
+        <a href="#location">Location</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="heroNames">
+      <div class="hero-image" id="heroImage" role="img" aria-label="A photograph of Gagan and Sindhu"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <br><br>
+        <p class="eyebrow hero-eyebrow">Together with our families</p>
+        <h1 id="heroNames">Gagan <span>&amp;</span> Sindhu</h1>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p class="hero-date" id="heroDate">20 November 2026</p>
+        <p class="hero-note">We're getting married</p>
+      </div>
+      <a class="scroll-cue" href="#welcome" aria-label="Scroll to the welcome message"><span></span></a>
+    </section>
+
+    <section class="welcome section-pad reveal" id="welcome" aria-labelledby="welcomeTitle">
+      <p class="eyebrow">A note from us</p>
+      <h2 id="welcomeTitle">A day to remember,<br><em>a story to share.</em></h2>
+      <p class="welcome-copy" id="welcomeText"></p>
+      <div class="countdown-wrap">
+        <p class="eyebrow">Counting down to the wedding</p>
+        <div class="countdown" id="countdown" role="timer" aria-label="Countdown to the wedding ceremony" aria-live="off">
+          <div class="countdown-unit"><span id="countdownDays">--</span><small>Days</small></div>
+          <div class="countdown-unit"><span id="countdownHours">--</span><small>Hours</small></div>
+          <div class="countdown-unit"><span id="countdownMinutes">--</span><small>Minutes</small></div>
+          <div class="countdown-unit"><span id="countdownSeconds">--</span><small>Seconds</small></div>
+        </div>
+        <p class="countdown-finished" id="countdownFinished" hidden></p>
+      </div>
+      <span class="section-flourish" aria-hidden="true">G <span>&amp;</span> S</span>
+    </section>
+
+    <section class="couple section-pad" id="couple" aria-labelledby="coupleTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">The people behind the celebration</p>
+        <h2 id="coupleTitle">Meet Gagan &amp; Sindhu</h2>
+      </div>
+      <div class="profiles">
+        <article class="profile reveal">
+          <div class="slideshow" id="coupleSlideshow" aria-label="Gagan and Sindhu photographs"></div>
+          <div class="profile-copy">
+            <p class="eyebrow">Bride &amp; Groom</p>
+            <h3>Gagan &amp; Sindhu</h3>
+            <p>Two stories, one beautiful journey.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="celebrations" id="celebrations" aria-labelledby="celebrationsTitle">
+      <div class="celebrations-poster" id="celebrationsPoster"></div>
+      <video id="celebrationVideo" class="section-video" autoplay muted loop playsinline preload="none" aria-hidden="true"></video>
+      <div class="section-shade"></div>
+      <div class="celebrations-content section-pad">
+        <div class="section-heading section-heading-light reveal">
+          <p class="eyebrow">Save the dates</p>
+          <h2 id="celebrationsTitle">The celebrations</h2>
+        </div>
+        <div class="events" id="events"></div>
+      </div>
+    </section>
+
+    <section class="location section-pad" id="location" aria-labelledby="venueName">
+      <div class="venue-photo-wrap reveal">
+        <img id="venueImage" src="assets/images/events/venue.svg" alt="Wedding venue" loading="lazy">
+        <span class="photo-caption">Where we gather</span>
+      </div>
+      <div class="venue-copy reveal">
+        <p class="eyebrow">Find your way</p>
+        <h2 id="venueName">Wedding Venue Name</h2>
+        <p id="venueAddress"></p>
+        <a id="venueMap" class="button-link" target="_blank" rel="noopener noreferrer">
+          <span>Get directions</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="gallery-section section-pad" id="gallery" aria-labelledby="galleryTitle">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Little moments, kept close</p>
+        <h2 id="galleryTitle">A few memories</h2>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <section class="closing" id="closing" aria-labelledby="closingTitle">
+      <div class="closing-image" id="closingImage" role="img" aria-label="A photograph of Gagan and Sindhu"></div>
+      <div class="closing-shade"></div>
+      <div class="closing-content reveal">
+        <p class="eyebrow">Until then</p>
+        <h2 id="closingTitle">We would love to<br>celebrate with you.</h2>
+        <p id="closingFamily"></p>
+        <p class="closing-date" id="closingDate"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span id="footerNames">Gagan &amp; Sindhu</span><a href="#hero">Back to top ↑</a></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Full-size gallery media" aria-hidden="true">
+    <button class="lightbox-close" id="closeLightbox" type="button" aria-label="Close gallery">×</button>
+    <button class="lightbox-nav lightbox-prev" id="previousMedia" type="button" aria-label="Previous image">‹</button>
+    <div class="lightbox-content" id="lightboxContent"></div>
+    <button class="lightbox-nav lightbox-next" id="nextMedia" type="button" aria-label="Next image">›</button>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
