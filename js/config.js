@@ -18,7 +18,7 @@ const CONFIG = {
     name: "Gowrishankara Kalyana Mantapa",
     address: "(Bannur Main Road, Kyathengere, Mandya)",
     image: "assets/images/events/venue.svg",
-    mapUrl: "https://share.google/8waVbUi4GrObPgpM6"
+    mapUrl: "https://www.google.com/maps/dir/?api=1&destination=Gowrishankara%20Kalyana%20Mantapa%2C%20Bannur%20Main%20Road%2C%20Kyathengere%2C%20Mandya&travelmode=driving"
   },
 
   coupleImages: [

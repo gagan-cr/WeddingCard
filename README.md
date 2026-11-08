@@ -47,7 +47,7 @@ The older SVG placeholders are kept in place and are not deleted. The page now u
 - Wedding ceremony: **Friday, 20 November 2026, 9:20 AM onwards**
 - Countdown: welcome section, counting down to the ceremony at 9:20 AM India time (UTC+05:30)
 - Venue: **Gowrishankara Kalyana Mantapa** (Bannur Main Road, Kyathengere, Mandya)
-- Venue directions: [Google Maps link](https://share.google/8waVbUi4GrObPgpM6), shown only in the venue section
+- Venue directions: Google Maps driving directions to the full venue address, shown only in the venue section
 - Event rows show only each event's name, date and time; venue/address/directions appear only in the venue section.
 
 ## Customize
