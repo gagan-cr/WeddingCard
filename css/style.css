@@ -402,11 +402,20 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 400; }
 .section-heading-light { margin-bottom: 2.4rem; text-align: left; }
 .events { max-width: 58rem; }
 .event {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr;
   gap: .4rem;
   padding: 1.3rem 0;
-  border-top: 1px solid rgb(255 255 255 / 34%);
+}
+.event::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7rem;
+  height: 1px;
+  background: rgb(255 255 255 / 48%);
+  content: "";
 }
 .event h3 { margin: 0; font-size: 2.1rem; line-height: 1; }
 .event-date { margin: 0; color: #e8cdbf; font-size: .8rem; letter-spacing: .08em; }
