@@ -10,34 +10,32 @@ assets/
     favicon.svg
   images/
     hero/
-      gagan-sindhu-hero.jpg        # original photo
       gagan-sindhu-hero.webp       # optimized copy used by the page
-    couple/
-      couple-01.svg ... couple-06.svg  # original SVG placeholders, kept
     events/
-      venue.svg                     # replace with venue.jpg if you have a venue photo
+      venue.webp                     # venue photo used by the page
       celebrations-poster.svg       # optional poster/still for the background video
     gallery/
-      couple-01.jpg ... couple-04.jpg  # original photos you added
-      couple-01.webp ... couple-04.webp # optimized copies used in slideshow
-      gallery-1.svg ... gallery-6.svg  # unused SVG placeholders, kept
+      couple-01.webp ... couple-06.webp # optimized photos used in slideshow
+      memory-01.webp ... memory-06.webp # photos used in gallery
+    closing.webp                     # closing photo used by the page
     social/
-      gagan-sindhu-preview.svg      # replace with gagan-sindhu-preview.jpg
+      gagan-sindhu-preview.jpg      # optimized 1200x630 social preview
   videos/
     gagan-sindhu-celebration.mp4    # add your 5–8 second looping background video here
 ```
 
-The older SVG placeholders are kept in place and are not deleted. The page now uses the four couple photos already in `assets/images/gallery/` and optimized WebP copies of them. The original, full-size JPGs remain unchanged.
+Unused SVG placeholders are retained in the assets folder; the page uses the optimized WebP/JPG files listed above.
 
 ### What to put where
 
-- **Hero photo:** `assets/images/hero/gagan-sindhu-hero.jpg` — the original. The site uses the smaller `gagan-sindhu-hero.webp` copy.
-- **Meet Gagan & Sindhu slideshow:** the four photos already added as `assets/images/gallery/couple-01.jpg` through `couple-04.jpg`. The page uses matching `.webp` copies to save mobile data. This is one shared slideshow, not separate bride/groom slideshows; it auto-advances, crossfades, and supports swipe, arrows and dots.
-- **Memories gallery:** `assets/images/gallery/gallery-1.svg` through `gallery-6.svg` are still generic placeholders. If you want separate memories, add `memory-01.jpg` through `memory-06.jpg` and update `galleryImages` paths in `js/config.js`.
-- **Venue photo:** `assets/images/events/venue.jpg` — optional photo of the venue; update `venue.image` in `js/config.js`.
+- **Hero photo:** `assets/images/hero/gagan-sindhu-hero.webp`.
+- **Meet Gagan & Sindhu slideshow:** `assets/images/gallery/couple-01.webp` through `couple-06.webp`. This is one shared slideshow, not separate bride/groom slideshows; it auto-advances, crossfades, and supports swipe, arrows and dots.
+- **Memories gallery:** `assets/images/gallery/memory-01.webp` through `memory-06.webp`. Memory 1 is the newest close-up selfie; memory 5 is the former memory 1 beach photo.
+- **Venue photo:** `assets/images/events/venue.webp`.
+- **Closing photo:** `assets/images/closing.webp`.
 - **Background video:** `assets/videos/gagan-sindhu-celebration.mp4` — the site now uses it, forces mute, loops it, and loads/plays it only when the celebrations section is near the screen. The current file is 1920×1080, about 22 MB and 11.2 seconds long. If you want the planned 5–8 second clip, trim it and export a smaller 720p H.264 MP4 for mobile.
 - **Video poster:** `assets/images/events/celebrations-poster.jpg` — an optional still from the video. Update `celebrationPoster` in `js/config.js`. The existing SVG poster remains as a fallback until then.
-- **WhatsApp/social preview:** `assets/images/social/gagan-sindhu-preview.jpg` — landscape image, ideally 1200×630. Update the `og:image` and `twitter:image` absolute HTTPS URLs in `index.html` after deployment. Social preview crawlers may not support SVG.
+- **WhatsApp/social preview:** `assets/images/social/gagan-sindhu-preview.jpg` is a 1200×630 JPG. Update the `og:image` and `twitter:image` absolute HTTPS URLs in `index.html` after deployment.
 
 ## Wedding details already entered
 
