@@ -33,7 +33,7 @@ Unused SVG placeholders are retained in the assets folder; the page uses the opt
 - **Memories gallery:** `assets/images/gallery/memory-01.webp` through `memory-06.webp`. Memory 1 is the newest close-up selfie; memory 5 is the former memory 1 beach photo.
 - **Venue photo:** `assets/images/events/venue.webp`.
 - **Closing photo:** `assets/images/closing.webp`.
-- **Background video:** `assets/videos/gagan-sindhu-celebration.mp4` — the site now uses it, forces mute, loops it, and loads/plays it only when the celebrations section is near the screen. The current file is 1920×1080, about 22 MB and 11.2 seconds long. If you want the planned 5–8 second clip, trim it and export a smaller 720p H.264 MP4 for mobile.
+- **Background video:** `assets/videos/gagan-sindhu-celebration.mp4` — the site forces mute, loops it, and loads/plays it only when the celebrations section is near the screen. The optimized file is 1920×1080, about 5.64 MB, and 11.16 seconds long. If you still prefer the planned 5–8 second clip, trim this compressed H.264 MP4 further.
 - **Video poster:** `assets/images/events/celebrations-poster.jpg` — an optional still from the video. Update `celebrationPoster` in `js/config.js`. The existing SVG poster remains as a fallback until then.
 - **WhatsApp/social preview:** `assets/images/social/gagan-sindhu-preview.jpg` is a 1200×630 JPG. Update the `og:image` and `twitter:image` absolute HTTPS URLs in `index.html` after deployment.
 

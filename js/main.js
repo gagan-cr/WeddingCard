@@ -18,7 +18,7 @@ function setPageContent() {
   setText("heroNames", `${CONFIG.groomName} & ${CONFIG.brideName}`);
   setText("heroDate", CONFIG.weddingDate);
   setText("welcomeText", CONFIG.welcomeMessage);
-  setText("closingFamily", `With love, ${CONFIG.familyNames}`);
+  setText("closingFamily", `With love, ${CONFIG.brideName} ${CONFIG.groomName} `);
   setText("closingDate", CONFIG.weddingDate);
   setText("footerNames", `${CONFIG.groomName} & ${CONFIG.brideName}`);
   setBackgroundImage("heroImage", CONFIG.heroImage);
