@@ -11,6 +11,7 @@ const CONFIG = {
   heroImage: "assets/images/hero/gagan-sindhu-hero.webp",
   celebrationVideo: "assets/videos/gagan-sindhu-celebration.mp4",
   celebrationPoster: "assets/images/events/celebrations-poster.svg",
+  galleryBackground: "assets/images/gallery/background.webp",
   closingImage: "assets/images/closing.webp",
   previewImage: "assets/images/social/gagan-sindhu-preview.jpg",
 
@@ -47,7 +48,7 @@ const CONFIG = {
 
   galleryImages: [
     { src: "assets/images/gallery/memory-01.webp", alt: "Gagan and Sindhu taking a close-up selfie" },
-    { src: "assets/images/gallery/memory-02.webp", alt: "Gagan and Sindhu together by the coast" },
+    { src: "assets/images/gallery/memory-02.webp", alt: "Gagan and Sindhu smiling together indoors" },
     { src: "assets/images/gallery/memory-03.webp", alt: "Gagan and Sindhu in their wedding attire" },
     { src: "assets/images/gallery/memory-04.webp", alt: "Gagan and Sindhu taking a mirror selfie" },
     { src: "assets/images/gallery/memory-05.webp", alt: "Gagan and Sindhu sharing a moment on the beach" },

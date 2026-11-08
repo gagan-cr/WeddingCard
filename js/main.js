@@ -24,6 +24,7 @@ function setPageContent() {
   setBackgroundImage("heroImage", CONFIG.heroImage);
   setBackgroundImage("closingImage", CONFIG.closingImage);
   setBackgroundImage("celebrationsPoster", CONFIG.celebrationPoster);
+  setBackgroundImage("galleryBackdrop", CONFIG.galleryBackground);
 
   const venueImage = byId("venueImage");
   venueImage.src = CONFIG.venue.image;
@@ -144,7 +145,7 @@ function setupCountdown() {
       window.clearInterval(timer);
       return;
     }
-    units.days.textContent = String(Math.floor(remaining / 86400000));
+    units.days.textContent = String(Math.floor(remaining / 86400000)).padStart(2, "0");
     units.hours.textContent = String(Math.floor((remaining / 3600000) % 24)).padStart(2, "0");
     units.minutes.textContent = String(Math.floor((remaining / 60000) % 60)).padStart(2, "0");
     units.seconds.textContent = String(Math.floor((remaining / 1000) % 60)).padStart(2, "0");

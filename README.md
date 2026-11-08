@@ -17,6 +17,7 @@ assets/
     gallery/
       couple-01.webp ... couple-06.webp # optimized photos used in slideshow
       memory-01.webp ... memory-06.webp # photos used in gallery
+      background.webp                   # optimized photo backdrop for memories
     closing.webp                     # closing photo used by the page
     social/
       gagan-sindhu-preview.jpg      # optimized 1200x630 social preview
@@ -30,7 +31,8 @@ Unused SVG placeholders are retained in the assets folder; the page uses the opt
 
 - **Hero photo:** `assets/images/hero/gagan-sindhu-hero.webp`.
 - **Meet Gagan & Sindhu slideshow:** `assets/images/gallery/couple-01.webp` through `couple-06.webp`. This is one shared slideshow, not separate bride/groom slideshows; it auto-advances, crossfades, and supports swipe, arrows and dots.
-- **Memories gallery:** `assets/images/gallery/memory-01.webp` through `memory-06.webp`. Memory 1 is the newest close-up selfie; memory 5 is the former memory 1 beach photo.
+- **Memories gallery:** `assets/images/gallery/memory-01.webp` through `memory-06.webp`. Memory 1 is the newest close-up selfie; memory 2 is the updated indoor couple photo; memory 5 is the former memory 1 beach photo.
+- **Memories backdrop:** `assets/images/gallery/background.webp`, optimized from the portrait photo and used behind widely spaced Polaroid-style cards.
 - **Venue photo:** `assets/images/events/venue.webp`.
 - **Closing photo:** `assets/images/closing.webp`.
 - **Background video:** `assets/videos/gagan-sindhu-celebration.mp4` — the site forces mute, loops it, and loads/plays it only when the celebrations section is near the screen. The optimized file is 1920×1080, about 5.64 MB, and 11.16 seconds long. If you still prefer the planned 5–8 second clip, trim this compressed H.264 MP4 further.
@@ -43,7 +45,7 @@ Unused SVG placeholders are retained in the assets folder; the page uses the opt
 - Bride: **Sindhu**
 - Reception: **Thursday, 19 November 2026, 7:00 PM onwards**
 - Wedding ceremony: **Friday, 20 November 2026, 9:20 AM onwards**
-- Countdown: welcome section, counting down to the ceremony at 9:20 AM India time (UTC+05:30)
+- Countdown: welcome section, counting down to the ceremony at 9:20 AM India time (UTC+05:30), in a hand-lettered style
 - Venue: **Gowrishankara Kalyana Mantapa** (Bannur Main Road, Kyathengere, Mandya)
 - Venue directions: Google Maps driving directions to the full venue address, shown only in the venue section
 - Event rows show only each event's name, date and time; venue/address/directions appear only in the venue section.

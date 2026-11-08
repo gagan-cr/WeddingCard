@@ -21,7 +21,7 @@
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500;600&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -64,10 +64,10 @@
       <div class="countdown-wrap">
         <p class="eyebrow">Counting down to the wedding</p>
         <div class="countdown" id="countdown" role="timer" aria-label="Countdown to the wedding ceremony" aria-live="off">
-          <div class="countdown-unit"><span id="countdownDays">--</span><small>Days</small></div>
-          <div class="countdown-unit"><span id="countdownHours">--</span><small>Hours</small></div>
-          <div class="countdown-unit"><span id="countdownMinutes">--</span><small>Minutes</small></div>
-          <div class="countdown-unit"><span id="countdownSeconds">--</span><small>Seconds</small></div>
+          <div class="countdown-unit"><span id="countdownDays">--</span><small>days</small></div>
+          <div class="countdown-unit"><span id="countdownHours">--</span><small>hours</small></div>
+          <div class="countdown-unit"><span id="countdownMinutes">--</span><small>minutes</small></div>
+          <div class="countdown-unit"><span id="countdownSeconds">--</span><small>seconds</small></div>
         </div>
         <p class="countdown-finished" id="countdownFinished" hidden></p>
       </div>
@@ -124,12 +124,16 @@
     </section>
 
     <section class="gallery-section section-pad" id="gallery" aria-labelledby="galleryTitle">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Little moments, kept close</p>
-        <h2 id="galleryTitle">A few memories</h2>
+      <div class="gallery-backdrop" id="galleryBackdrop" aria-hidden="true"></div>
+      <div class="gallery-content">
+        <div class="gallery-heading reveal">
+          <h2 id="galleryTitle">Our Memories</h2>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
       </div>
-      <div class="gallery-grid" id="galleryGrid"></div>
     </section>
+
+    <div class="gallery-ending-divider" aria-hidden="true"><span>✦</span></div>
 
     <section class="closing" id="closing" aria-labelledby="closingTitle">
       <div class="closing-image" id="closingImage" role="img" aria-label="A photograph of Gagan and Sindhu"></div>
