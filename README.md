@@ -20,7 +20,7 @@ assets/
       background.webp                   # optimized photo backdrop for memories
     closing.webp                     # closing photo used by the page
     social/
-      gagan-sindhu-preview.jpg      # optimized 1200x630 social preview
+      gagan-sindhu-rings.jpg        # couple's ring photo used as social preview
   videos/
     gagan-sindhu-celebration.mp4    # add your 5–8 second looping background video here
 ```
@@ -37,7 +37,7 @@ Unused SVG placeholders are retained in the assets folder; the page uses the opt
 - **Closing photo:** `assets/images/closing.webp`.
 - **Background video:** `assets/videos/gagan-sindhu-celebration.mp4` — the site forces mute, loops it, and loads/plays it only when the celebrations section is near the screen. The optimized file is 1920×1080, about 5.64 MB, and 11.16 seconds long. If you still prefer the planned 5–8 second clip, trim this compressed H.264 MP4 further.
 - **Video poster:** `assets/images/events/celebrations-poster.jpg` — an optional still from the video. Update `celebrationPoster` in `js/config.js`. The existing SVG poster remains as a fallback until then.
-- **WhatsApp/social preview:** `assets/images/social/gagan-sindhu-preview.jpg` is a 1200×630 JPG. Update the `og:image` and `twitter:image` absolute HTTPS URLs in `index.html` after deployment.
+- **WhatsApp/social preview:** `assets/images/social/gagan-sindhu-rings.jpg` is a 676×597 JPG. Update the `og:image` and `twitter:image` absolute HTTPS URLs in `index.html` after deployment.
 
 ## Wedding details already entered
 
@@ -70,7 +70,7 @@ Open <http://localhost:8000>.
 2. In Cloudflare, choose **Workers & Pages → Create application → Pages → Connect to Git**, then select the repository.
 3. Use **None** for framework, leave the build command empty, and set the build output directory to `.` (the project root).
 4. Deploy. Cloudflare provides the public HTTPS address.
-5. In `index.html`, replace `YOUR-DOMAIN.pages.dev` with the deployed domain. Set `og:image` and `twitter:image` to the absolute HTTPS URL of `gagan-sindhu-preview.jpg`.
+5. In `index.html`, replace `YOUR-DOMAIN.pages.dev` with the deployed domain. Set `og:image` and `twitter:image` to the absolute HTTPS URL of `gagan-sindhu-rings.jpg`.
 6. Commit and push your metadata/media changes; Cloudflare Pages will deploy the update.
 
 Before sharing, test navigation, the shared slideshow, the 360px/390px mobile layouts, the countdown, Maps links, and the video poster/video playback.

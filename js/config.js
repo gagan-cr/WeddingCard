@@ -13,7 +13,7 @@ const CONFIG = {
   celebrationPoster: "assets/images/events/celebrations-poster.svg",
   galleryBackground: "assets/images/gallery/background.webp",
   closingImage: "assets/images/closing.webp",
-  previewImage: "assets/images/social/gagan-sindhu-preview.jpg",
+  previewImage: "assets/images/social/gagan-sindhu-rings.jpg",
 
   venue: {
     name: "Gowrishankara Kalyana Mantapa",
